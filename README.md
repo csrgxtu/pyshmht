@@ -1,6 +1,6 @@
 pyshmht
 =======
-![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)
+![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)
 
 Multi-process Hash Table library for Python
 
