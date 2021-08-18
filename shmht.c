@@ -311,7 +311,7 @@ static PyObject * shmht_foreach(PyObject *self, PyObject *args)
     while (ht_iter_next(iter)) {
         ht_str *key = iter->key, *value = iter->value;
         PyObject *arglist = Py_BuildValue("(y#y#)", key->str, key->size, value->str, value->size);
-        PyEval_CallObject(cb, arglist);
+        PyObject_CallObject(cb, arglist);
         Py_DECREF(arglist);
     }
     free(iter);
